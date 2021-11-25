@@ -1,0 +1,41 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Usuarios
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Listar</ion-card-title>
+    </ion-card-header>
+
+    
+    <ion-card-content>
+  <ion-button expand="full" color="danger" (click)="obtenerUsuarios()" >Listar</ion-button>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Modificar</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+  <ion-button expand="full" color="danger" (click)="verLocales()">Modificar</ion-button>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle></ion-card-subtitle>
+      <ion-card-title>Eliminar</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+  <ion-button expand="full" color="danger">Eliminar</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
